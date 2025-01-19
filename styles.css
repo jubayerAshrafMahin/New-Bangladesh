@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0px 150px;
+    background-color: #f5f5f5;
+    font-family: "Fira Sans", serif;
+}
+
+header{
+    padding: 35px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Fira Sans", serif;
+    align-items: center;
+
+}
+.title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+button{
+    background-color: transparent;
+    border: 1.9px solid #006A50;
+    border-radius: 10px;
+    color: #006A50;
+    padding: 15px 25px;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+    cursor: pointer;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 25px;
+    padding: 80px 60px;
+    margin:0 0 80px 0;
+}
+
+.bd2{
+    color: rgba(0, 0, 0, 0.500);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.idea{
+    font-size: 55px;
+    margin: 12px 0px 20px;
+}
+
+.explore{
+    background-color: #006A50;
+    color: white;
+    font-weight: bold;
+}
+
+.memorial{
+    margin: 0px 10px;
+}
+.cardHolder{
+    display: flex;
+    justify-content: space-evenly ;
+    margin: 40px 0px 80px;
+    gap: 20px;
+}
+.cards{
+    border: 1.9px solid #0e0e0e15;
+    border-radius: 25px;
+    background-color: white;
+    padding: 28px;
+}
+.cardIcon{
+    margin: 0px 0px 15px;
+}
+.cardTitle{
+    margin: 0 0 10px;
+}
+.cardSubtitle{
+    color: 0e0e0e;
+    opacity: 0.75;
+}
