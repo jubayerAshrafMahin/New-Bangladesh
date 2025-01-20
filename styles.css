@@ -140,4 +140,44 @@ button{
 .section3{
     margin: 0 0 80px 0;
 }
+.section4>.subtitle{
+    margin:0 0 32px 0;
+}
 
+.newsCardHolder{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newsCard{
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    padding: 40px 40px;
+    align-items: center;
+    gap: 30px;
+}
+.newsImage{
+    border-radius: 25px;
+}
+.newsCardBtn{
+    background-color: #006A50;
+    color: white;
+}
+.newsTitle{
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 28px;
+    font-weight: bold;
+}
+.newsChannel{
+    margin: 5px 0px;
+}
+.newsHolder>.cardSubtitle{
+    margin: 10px 0px 20px 0px;
+}
+.dateTimeHolder{
+    display: flex;
+    gap: 12px;
+    color: rgba(14, 14, 14, 0.70);
+}
