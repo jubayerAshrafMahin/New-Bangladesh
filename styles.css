@@ -181,3 +181,105 @@ button{
     gap: 12px;
     color: rgba(14, 14, 14, 0.70);
 }
+.section5Holder{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+.donationCardHolder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 40px;
+    
+}
+.donationCard{
+    border: 1.9px solid #0e0e0e15;
+    border-radius: 15px;
+    background-color: white;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 38px;
+    color: rgba(14, 14, 14, 0.80);
+}
+.donationCard:hover{
+    background-color: #006A50;
+    color: white;
+    cursor: pointer;
+}
+.donationBtn{
+    display: inline;
+    background-color: #006A50;
+    color: white;
+    margin: 0 auto;
+}
+.inputDonationHolder{
+    padding: 0px 0px;
+}
+.donationInput{
+    width: 80%;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.donationInput::placeholder{
+    font-family: "Fira Sans", serif;
+    text-align: center;
+    font-size: medium;
+}
+.section5 .title{
+    margin: 80px 0 0 0;
+}
+.section5 .subtitle{
+    color: rgba(14, 14, 14, 0.70);
+}
+.section5{
+    margin: 0 0 80px 0;
+}
+.section6{
+    padding: 80px 120px 50px 120px;
+    background-color: #C6E4D6;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 0 80px 0;
+}
+.section6 .title{
+    margin: 0 0 30px 0;
+}
+.section6 .subtitle{
+    width: 50%;
+    margin: 0 auto 30px;
+}
+.inputHolder{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+.emailInput{
+    border: none;
+    border-radius: 10px 0 0 10px;
+    width: 50%;
+    outline: none;
+    height: 55px;
+    padding: 0 30px;
+    margin: 0 0 0 0;
+}
+.emailInput::placeholder{
+    font-family: "Fira Sans", serif;
+    font-size: medium;
+}
+.subscribeBtn{
+    background-color: #006A50;
+    color: white;
+    height: 55px;
+    margin: 0 0 0 0;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+
+
