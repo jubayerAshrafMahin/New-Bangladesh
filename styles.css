@@ -1,30 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    padding: 0px 150px;
+body {
     background-color: #f5f5f5;
     font-family: "Fira Sans", serif;
 }
 
-header{
-    padding: 35px 0px;
+header {
+    padding: 35px 150px;
     display: flex;
     justify-content: space-between;
     font-family: "Fira Sans", serif;
     align-items: center;
-
 }
-.title{
+main{
+    padding: 0px 150px;
+}
+
+.title {
     font-size: 40px;
     font-weight: bold;
 }
 
-button{
+button {
     background-color: transparent;
     border: 1.9px solid #006A50;
     border-radius: 10px;
@@ -36,121 +38,143 @@ button{
     cursor: pointer;
 }
 
-.section1{
+.section1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #C6E4D6;
     border-radius: 25px;
     padding: 80px 60px;
-    margin:0 0 80px 0;
+    margin: 0 0 80px 0;
+    gap: 50px;
 }
 
-.bd2{
+.bd2 {
     color: rgba(0, 0, 0, 0.500);
     font-size: 25px;
     font-weight: bold;
 }
 
-.idea{
+.idea {
     font-size: 55px;
     margin: 12px 0px 20px;
 }
 
-.explore{
+.explore {
     background-color: #006A50;
     color: white;
     font-weight: bold;
 }
 
-.memorial{
+.memorial {
     margin: 0px 10px;
 }
-.cardHolder{
+
+.cardHolder {
     display: flex;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
     margin: 40px 0px 80px;
     gap: 20px;
 }
-.cards{
+
+.cards {
     border: 1.9px solid #0e0e0e15;
     border-radius: 25px;
     background-color: white;
     padding: 28px;
 }
-.cardIcon{
+
+.cardIcon {
     margin: 0px 0px 15px;
 }
-.cardTitle{
+
+.cardTitle {
     margin: 0 0 10px;
 }
-.cardSubtitle{
+
+.cardSubtitle {
     color: 0e0e0e;
     opacity: 0.75;
 }
 
-.card2{
+.card2 {
     background-color: #C6E4D6;
     border: none;
 }
-.card1{
+
+.card1 {
     background-color: rgba(84, 143, 245, 0.2);
     border: none;
 }
-.card3{
+
+.card3 {
     background-color: #F7EBCF;
     border: none;
 }
-.cardBtn1{
+
+.cardBtn1 {
     background-color: #5490F5;
     border: none;
     margin: 25px 0 0 0;
     color: white;
 }
-.cardBtn2{
+
+.cardBtn2 {
     background-color: #09A15C;
     border: none;
     margin: 25px 0 0 0;
     color: white;
 }
-.cardBtn3{
+
+.cardBtn3 {
     background-color: #FFC239;
     border: none;
     margin: 25px 0 0 0;
     color: white;
 }
-.innerTitle{
+
+.innerTitle {
     margin: 0 0 40px 0;
 }
-.adviserQuote{
+
+.adviserQuote {
     margin: 0 0 15px 0;
-}
-.adviserName{
-    margin: 0 0 5px 0;
-}
-.adviserBD{
-    color: rgb(14, 14, 14, 0.6);
-}
-.cardHolder2{
-    margin: 0 0 32px 0;
-}
-.section3>.subtitle{
-    margin:0 0 32px 0;
-}
-.section3{
-    margin: 0 0 80px 0;
-}
-.section4>.subtitle{
-    margin:0 0 32px 0;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 20px;
 }
 
-.newsCardHolder{
+.adviserName {
+    margin: 0 0 5px 0;
+}
+
+.adviserBD {
+    color: rgb(14, 14, 14, 0.6);
+}
+
+.cardHolder2 {
+    margin: 0 0 32px 0;
+}
+
+.section3>.subtitle {
+    margin: 0 0 32px 0;
+}
+
+.section3 {
+    margin: 0 0 80px 0;
+}
+
+.section4>.subtitle {
+    margin: 0 0 32px 0;
+}
+
+.newsCardHolder {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.newsCard{
+.newsCard {
     display: flex;
     background-color: white;
     border-radius: 25px;
@@ -158,44 +182,53 @@ button{
     align-items: center;
     gap: 30px;
 }
-.newsImage{
+
+.newsImage {
     border-radius: 25px;
 }
-.newsCardBtn{
+
+.newsCardBtn {
     background-color: #006A50;
     color: white;
 }
-.newsTitle{
+
+.newsTitle {
     color: rgba(14, 14, 14, 0.80);
     font-size: 28px;
     font-weight: bold;
 }
-.newsChannel{
+
+.newsChannel {
     margin: 5px 0px;
 }
-.newsHolder>.cardSubtitle{
+
+.newsHolder>.cardSubtitle {
     margin: 10px 0px 20px 0px;
 }
-.dateTimeHolder{
+
+.dateTimeHolder {
     display: flex;
     gap: 12px;
     color: rgba(14, 14, 14, 0.70);
 }
-.section5Holder{
+
+.section5Holder {
     display: flex;
     flex-direction: column;
     gap: 32px;
     text-align: center;
 }
-.donationCardHolder{
+
+.donationCardHolder {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     padding: 0 40px;
-    
+
 }
-.donationCard{
+
+.donationCard {
     border: 1.9px solid #0e0e0e15;
     border-radius: 15px;
     background-color: white;
@@ -204,21 +237,25 @@ button{
     font-size: 38px;
     color: rgba(14, 14, 14, 0.80);
 }
-.donationCard:hover{
+
+.donationCard:hover {
     background-color: #006A50;
     color: white;
     cursor: pointer;
 }
-.donationBtn{
+
+.donationBtn {
     display: inline;
     background-color: #006A50;
     color: white;
     margin: 0 auto;
 }
-.inputDonationHolder{
+
+.inputDonationHolder {
     padding: 0px 0px;
 }
-.donationInput{
+
+.donationInput {
     width: 80%;
     padding: 20px;
     border: none;
@@ -226,40 +263,48 @@ button{
     box-shadow: 0 2px rgba(0, 0, 0, 0.1);
 }
 
-.donationInput::placeholder{
+.donationInput::placeholder {
     font-family: "Fira Sans", serif;
     text-align: center;
     font-size: medium;
 }
-.section5 .title{
+
+.section5 .title {
     margin: 80px 0 0 0;
 }
-.section5 .subtitle{
+
+.section5 .subtitle {
     color: rgba(14, 14, 14, 0.70);
 }
-.section5{
+
+.section5 {
     margin: 0 0 80px 0;
 }
-.section6{
+
+.section6 {
     padding: 80px 120px 50px 120px;
     background-color: #C6E4D6;
     border-radius: 25px;
     text-align: center;
     margin: 0 0 80px 0;
 }
-.section6 .title{
+
+.section6 .title {
     margin: 0 0 30px 0;
 }
-.section6 .subtitle{
+
+.section6 .subtitle {
     width: 50%;
     margin: 0 auto 30px;
 }
-.inputHolder{
+
+.inputHolder {
     display: flex;
     justify-content: center;
     margin: 0 0 30px 0;
 }
-.emailInput{
+
+.emailInput {
     border: none;
     border-radius: 10px 0 0 10px;
     width: 50%;
@@ -268,11 +313,13 @@ button{
     padding: 0 30px;
     margin: 0 0 0 0;
 }
-.emailInput::placeholder{
+
+.emailInput::placeholder {
     font-family: "Fira Sans", serif;
     font-size: medium;
 }
-.subscribeBtn{
+
+.subscribeBtn {
     background-color: #006A50;
     color: white;
     height: 55px;
@@ -280,6 +327,67 @@ button{
     border: none;
     border-radius: 0 10px 10px 0;
 }
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 60px 250px;
+}
+footer h1{
+    margin: 0 0 40px 0;
+}
+footer hr{
+    margin: 0 0 40px 0;
+}
+.opinionSection{
+    margin-bottom: 80px;
+}
+.mediaHolder{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.tableHolder{
+    padding: 30px;
+    background-color: white;
+    border: 25px;
+}
 
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
 
-
+th{
+    background-color: #C6E4D6;
+    padding: 20px;
+    font-size: large;
+    text-align: left;
+    border: 1px solid rgba(14, 14, 14, 0.30);
+}
+td{
+    padding: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.30);
+    font-weight: bold;
+}
+select{
+    padding: 10px;
+    background-color: #C6E4D6;
+    font-family: "Fira Sans", serif;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.tdSelection{
+    text-align: center;
+    width: 180px;
+}
+.tableHeaderHolder{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 20px;
+    font-size: large;
+    border: 1px solid rgba(14, 14, 14, 0.30);
+    font-weight: bold;
+}
